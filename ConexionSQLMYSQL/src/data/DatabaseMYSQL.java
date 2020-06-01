@@ -20,11 +20,11 @@ public abstract class DatabaseMYSQL {
     
     //public static final String URL = "jdbc:mysql://localhost:3306/tarea3_b64543_b6587?autoReconnect=true&useSSL=true";
     
-    public static final String URL = "jdbc:mysql://localhost:3306/tarea3_b64543_b6587";
+    public static final String URL = "jdbc:mysql://163.178.107.10:3306/dbproyectoredes1?autoReconnect=true&useSSL=true";
     
     
-    public static final String USER = "root";
-    public static final String PASSWORD = "12345";  
+    public static final String USER = "laboratorios";
+    public static final String PASSWORD = "UCRSA.118";  
 
     public static Connection getConection() throws ClassNotFoundException, SQLException {
         Connection con = null;

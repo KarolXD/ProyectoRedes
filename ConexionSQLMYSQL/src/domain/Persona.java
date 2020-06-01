@@ -13,23 +13,17 @@ public class Persona {
 
     int id;
     String nombre;
-    String apellido1;
-    String apellido2;
-    String sexo;
-    int edad;
-    int cedula;
+    String clave;
+   
 
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido1, String apellido2, String sexo, int edad, int cedula) {
+    public Persona(String nombre, String clave) {
 
         this.nombre = nombre;
-        this.apellido1 = apellido1;
-        this.apellido2 = apellido2;
-        this.sexo = sexo;
-        this.edad = edad;
-        this.cedula = cedula;
+        this.clave = clave;
+        
     }
 
     public int getId() {
@@ -48,44 +42,13 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public String getApellido1() {
-        return apellido1;
+    public String getClave() {
+        return clave;
     }
 
-    public void setApellido1(String apellido1) {
-        this.apellido1 = apellido1;
+    public void setClave(String clave) {
+        this.clave = clave;
     }
 
-    public String getApellido2() {
-        return apellido2;
-    }
-
-    public void setApellido2(String apellido2) {
-        this.apellido2 = apellido2;
-    }
-
-    public String getSexo() {
-        return sexo;
-    }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
-    public int getCedula() {
-        return cedula;
-    }
-
-    public void setCedula(int cedula) {
-        this.cedula = cedula;
-    }
 
 }
