@@ -181,7 +181,7 @@ public class Formulario extends javax.swing.JFrame {
 
     public void creaardirectorio(String nombre) {
 
-        File directorio = new File("C://Users//Jahanel//Desktop//Redes//Directorios//"+nombre);
+        File directorio = new File("directorios//"+nombre);
         if (!directorio.exists()) {
             if (directorio.mkdirs()) {
                 System.out.println("Directorio creado");
