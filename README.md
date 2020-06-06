@@ -40,6 +40,10 @@ Despliegue
 Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
 
 Construido con
+Mysql: Gestor de BD
+Git: Controlador de versiones y tareas
+IDE. Se utilizó para programar
+
 Dropwizard : el marco web utilizado
 Maven - Gestión de dependencias
 ROMA : se utiliza para generar canales RSS
@@ -47,14 +51,19 @@ Contribuyendo
 Lea CONTRIBUTING.md para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
 
 Versionado
+Version Java:
+Version Mysql:
 Usamos SemVer para versionar. Para las versiones disponibles, vea las etiquetas en este repositorio .
 
 Autores
+Jahanel Rivera Barboza
+Karolina Montenegro Guzmán
+
 Billie Thompson - Trabajo inicial - PurpleBooth
 Vea también la lista de contribuyentes que participaron en este proyecto.
 
 Licencia
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo LICENSE.md para más detalles
+Este proyecto no está licenciado bajo la Licencia MIT - 
 
 Expresiones de gratitud
 Punta de sombrero para cualquiera cuyo código se haya usado
