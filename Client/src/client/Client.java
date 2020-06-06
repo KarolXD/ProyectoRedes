@@ -6,8 +6,11 @@
 package client;
 
 import data.Data;
+import static data.PersonaData.personaEntrante;
+import domain.Persona;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import javax.swing.JFileChooser;
@@ -132,11 +135,13 @@ public class Client extends javax.swing.JFrame {
             txt.append("Connect success ...\n");
             out = new ObjectOutputStream(socket.getOutputStream());
             Data data = new Data();
-            data.setStatus("new");
-            data.setName("Laing raven");
+            Persona p = new Persona();
+        //    System.out.println("Persona"+personaEntrante);
+            data.setStatus("nuevo cliente ->");
+            data.setName(personaEntrante);
             out.writeObject(data);
             out.flush();
-        } catch (Exception e) {
+        } catch (IOException e) {
             JOptionPane.showMessageDialog(this, e, "Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed

@@ -21,7 +21,8 @@ public class PersonaData extends DatabaseMYSQL {
     public PersonaData() {
         
     }   
-
+    public static String personaEntrante ;
+    
     
     public boolean autenticacion(Persona p) throws ClassNotFoundException{
          
@@ -40,6 +41,8 @@ public class PersonaData extends DatabaseMYSQL {
                   
                 Client formu = new Client();
                 formu.setVisible(true);
+               personaEntrante=p.getNombre();
+                
                 return true;
             }else{
                 JOptionPane.showMessageDialog(null,"Usuario y/o Clave INVALIDA");

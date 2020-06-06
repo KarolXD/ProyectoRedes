@@ -147,6 +147,7 @@ public class Server extends javax.swing.JFrame {
     private ServerSocket server;
     private ObjectOutputStream out;
     private ObjectInputStream in;
+     static String obtenerPersona;
     private DefaultListModel mod = new DefaultListModel();
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         list.setModel(mod);
@@ -160,6 +161,7 @@ public class Server extends javax.swing.JFrame {
                     in = new ObjectInputStream(s.getInputStream());
                     Data data = (Data) in.readObject();
                     String name = data.getName();
+                    obtenerPersona=name;
                     txt.append("New client " + name + " has been connected ...\n");
                     while (true) {
                         data = (Data) in.readObject();
@@ -212,10 +214,17 @@ public class Server extends javax.swing.JFrame {
             }
         }
     }
+    private  void saveFile(){
+        
+String rutaAbsoluta = new File(obtenerPersona+"\\" ).getAbsolutePath();
+        System.out.println("RUTA DEL ARCHIVO"+rutaAbsoluta);
+    }
+    
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        if (!list.isSelectionEmpty()) {
-            save();
-        }
+    if (!list.isSelectionEmpty()) {
+          save();
+    }
+saveFile();
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
