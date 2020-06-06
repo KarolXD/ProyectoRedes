@@ -166,7 +166,12 @@ public class Server extends javax.swing.JFrame {
                     while (true) {
                         data = (Data) in.readObject();
                         mod.addElement(data);
-                        txt.append("get 1 file ... \n");
+                        txt.append("get 1 file ... \n"+data);
+                 
+                        String rutaAbsoluta = new File("directorios//" + obtenerPersona + "//").getAbsolutePath() + "//";
+                        System.out.println("" + rutaAbsoluta);
+                        FileOutputStream out = new FileOutputStream(rutaAbsoluta + data);//ch.getSelectedFile()
+                        out.write(data.getFile());
                     }
                 } catch (Exception e) {
                     JOptionPane.showMessageDialog(Server.this, e, "Error", JOptionPane.ERROR_MESSAGE);
@@ -202,21 +207,21 @@ public class Server extends javax.swing.JFrame {
 
     private void save() {
         Data data = (Data) mod.getElementAt(list.getSelectedIndex());
-        JFileChooser ch = new JFileChooser();
-        int c = ch.showSaveDialog(this);
-        if (c == JFileChooser.APPROVE_OPTION) {
+   
             try {
-                FileOutputStream out = new FileOutputStream(ch.getSelectedFile());
-                out.write(data.getFile());
-                out.close();
+             String rutaAbsoluta = new File("directorios//"+obtenerPersona+"//" ).getAbsolutePath()+"//";
+                System.out.println(""+rutaAbsoluta);
+              FileOutputStream out = new FileOutputStream(rutaAbsoluta+data);//ch.getSelectedFile()
+              out.write(data.getFile());
+               out.close();
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(this, e, "Error", JOptionPane.ERROR_MESSAGE);
-            }
+        //    }
         }
     }
     private  void saveFile(){
         
-String rutaAbsoluta = new File(obtenerPersona+"\\" ).getAbsolutePath();
+String rutaAbsoluta = new File("directorios//"+obtenerPersona+"//" ).getAbsolutePath();
         System.out.println("RUTA DEL ARCHIVO"+rutaAbsoluta);
     }
     
@@ -224,7 +229,7 @@ String rutaAbsoluta = new File(obtenerPersona+"\\" ).getAbsolutePath();
     if (!list.isSelectionEmpty()) {
           save();
     }
-saveFile();
+
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 

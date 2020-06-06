@@ -161,7 +161,7 @@ public class Client extends javax.swing.JFrame {
                 data.setFile(b);
                 out.writeObject(data);
                 out.flush();
-                txt.append("send 1 file ../n");
+                txt.append("Enviando archivo :"+txtName.getText());
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, e, "Error", JOptionPane.ERROR_MESSAGE);
