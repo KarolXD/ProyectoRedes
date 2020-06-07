@@ -173,22 +173,36 @@ public class Client extends javax.swing.JFrame {
                 File f = ch.getSelectedFile();
                
                 
+//                if(txtName.getText().isEmpty()) {
+//               string valor=txtName.toString()+"hola"
+//                }
+                
                String rutaOriginal=f.getPath();  
-              
              String extension= rutaOriginal.substring(rutaOriginal.length()-4, rutaOriginal.length());
-           //   System.out.println("Extension: "+extension);
+                System.out.println("NAME: "+f.getName());
                 
                 FileInputStream in = new FileInputStream(f);
                 byte b[] = new byte[in.available()];
                 in.read(b);
                 Data data = new Data();
                 data.setStatus(jComboBox1.getSelectedItem() + "");
-                System.out.println("getSelected "+jComboBox1.getSelectedItem() );
+                
+            if(txtName.getText().isEmpty()) {
+                   data.setName(f.getName());
+            }else{
                 data.setName(txtName.getText().trim()+extension);
+                }
+            
                 data.setFile(b);
                 out.writeObject(data);
                 out.flush();
+                   if(txtName.getText().isEmpty()) {
+                       
+                txt.append("Enviando archivo :"+f.getName());
+                   }else{
+                       
                 txt.append("Enviando archivo :"+txtName.getText()+extension);
+                   }
             }
         } catch (HeadlessException | IOException e) {
             JOptionPane.showMessageDialog(this, e, "Error", JOptionPane.ERROR_MESSAGE);

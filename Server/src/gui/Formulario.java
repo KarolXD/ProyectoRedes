@@ -157,6 +157,7 @@ public class Formulario extends javax.swing.JFrame {
 
     private void saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveActionPerformed
 
+      //  clave.getPassword();
         try {
             if(!nombre.getText().isEmpty() && !clave.getText().isEmpty()){
             

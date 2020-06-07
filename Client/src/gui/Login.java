@@ -139,7 +139,7 @@ public class Login extends javax.swing.JFrame {
         
         try {
 
-            if (nombre.getText().isEmpty() && contra.getText() .isEmpty()) {
+            if (!nombre.getText().isEmpty() && !contra.getText() .isEmpty()) {
                 consultaDatos(nombre.getText(), contra.getText());
 
             } else {

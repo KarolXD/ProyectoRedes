@@ -9,6 +9,7 @@ import data.Data;
 import gui.Formulario;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
@@ -142,7 +143,7 @@ public class Server extends javax.swing.JFrame {
     private ServerSocket server;
     private ObjectOutputStream out;
     private ObjectInputStream in;
-     static String obtenerPersona;
+    static String obtenerPersona;
     private DefaultListModel mod = new DefaultListModel();
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         list.setModel(mod);
@@ -151,19 +152,27 @@ public class Server extends javax.swing.JFrame {
             public void run() {
                 try {
                     server = new ServerSocket(9999);
-                    txt.append("Server stating ...\n");
+                    txt.append("El Server ha iniciado ...\n");
                     Socket s = server.accept();
                     in = new ObjectInputStream(s.getInputStream());
                     Data data = (Data) in.readObject();
                     String name = data.getName();
-                    obtenerPersona=name;
-                    txt.append("New client " + name + " has been connected ...\n");
+                    obtenerPersona = name;
+                    txt.append("Nuevo Cliente " + name + " se ha conectado ...\n");
                     while (true) {
                         data = (Data) in.readObject();
                         mod.addElement(data);
-                        txt.append("get 1 file ... \n"+data);
-                 
+                        txt.append("get 1 file ... \n" + data);
+
+                        String rutaAbsoluta1 = new File("directorios//" + obtenerPersona + "//").getAbsolutePath() + "//";
+
+                        File buscandoRuta = new File(rutaAbsoluta1);
+                        if (!buscandoRuta.exists()) {
+                            creaardirectorio(obtenerPersona);
+                        }
+
                         String rutaAbsoluta = new File("directorios//" + obtenerPersona + "//").getAbsolutePath() + "//";
+
                         System.out.println("" + rutaAbsoluta);
                         FileOutputStream out = new FileOutputStream(rutaAbsoluta + data);//ch.getSelectedFile()
                         out.write(data.getFile());
@@ -202,24 +211,31 @@ public class Server extends javax.swing.JFrame {
 
     private void save() {
         Data data = (Data) mod.getElementAt(list.getSelectedIndex());
-   
-            try {
-             String rutaAbsoluta = new File("directorios//"+obtenerPersona+"//" ).getAbsolutePath()+"//";
-                System.out.println(""+rutaAbsoluta);
-              FileOutputStream out = new FileOutputStream(rutaAbsoluta+data);//ch.getSelectedFile()
-              out.write(data.getFile());
-               out.close();
-            } catch (Exception e) {
-                JOptionPane.showMessageDialog(this, e, "Error", JOptionPane.ERROR_MESSAGE);
-        //    }
+
+        try {
+            String rutaAbsoluta = new File("directorios//" + obtenerPersona + "//").getAbsolutePath() + "//";
+            System.out.println("" + rutaAbsoluta);
+            FileOutputStream out = new FileOutputStream(rutaAbsoluta + data);
+            out.write(data.getFile());
+            out.close();
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(this, e, "Error", JOptionPane.ERROR_MESSAGE);
+            //    }
         }
     }
-    private  void saveFile(){
-        
-String rutaAbsoluta = new File("directorios//"+obtenerPersona+"//" ).getAbsolutePath();
-        System.out.println("RUTA DEL ARCHIVO"+rutaAbsoluta);
+
+    public void creaardirectorio(String nombre) {
+
+        File directorio = new File("directorios//" + nombre);
+        if (!directorio.exists()) {
+            if (directorio.mkdirs()) {
+                System.out.println("Directorio creado");
+            } else {
+                System.out.println("Error al crear directorio");
+            }
+        }
     }
-    
+
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         if (!list.isSelectionEmpty()) {
             open();
@@ -228,17 +244,11 @@ String rutaAbsoluta = new File("directorios//"+obtenerPersona+"//" ).getAbsolute
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-       
+
         Formulario formu = new Formulario();
         formu.setVisible(true);
-       
-      
-   
-        
-        
-        
-        
-        
+
+
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
