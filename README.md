@@ -4,6 +4,31 @@ Proyecto Redes BY Antonio
 El Readme de este repositorio tendrá una descripción del software que se debe instalar
 para ejecutar el proyecto y los pasos detallados. 
 
+
+# Clonando el repositorio
+Para empezar con la clonación del repositorio,
+Usando el IDE Netbeans version 8.0
+
+Paso #1 Abre Netbeans
+Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
+
+Paso #3 Se dirige a la siguiente ruta Git/Clone/
+
+Paso #4  En la pantalla "Clone Repo"
+1.1 Se le pedirá el link del repositorio
+1.2 Dirección o ruta donde se clonará  el repositorio.
+Ambos datos deben ser editables por el Usuario
+Cuando se llenen los datos, que dije anteriormente, se da click sobre el botón 'Next'
+Paso #5 Next
+Paso #6 Next
+
+
+
+Lista clonación del repositorio
+
+
+
+
 # Título del Proyecto
 Creacion de un servidor FTP para conexion de N Clientes para transferencia de archivos
 
@@ -20,7 +45,8 @@ Necesito:
 -IDE de desarrollo
 -uso de conector de mysql 
 
-Para este demo, se desarrolló en Netbeans
+#Para este demo, se desarrolló en  el ID Netbeans version 8.0
+
 Como instalarlos?
 Tanto El ID como el gestor de bases de datos se descargan de la web solo es cuestion de instalar,
 para poder gestionar el programa se tiene que descargar java el cual se usa para la creacion del programa,
