@@ -20,6 +20,7 @@ Necesito:
 -IDE de desarrollo
 -uso de conector de mysql 
 
+Para este demo, se desarrolló en Netbeans
 Como instalarlos?
 Tanto El ID como el gestor de bases de datos se descargan de la web solo es cuestion de instalar,
 para poder gestionar el programa se tiene que descargar java el cual se usa para la creacion del programa,
