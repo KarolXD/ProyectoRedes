@@ -1,5 +1,5 @@
 # ProyectoRedes
-Proyecto Redes BY Antonio
+
 
 El Readme de este repositorio tendrá una descripción del software que se debe instalar
 para ejecutar el proyecto y los pasos detallados. 
