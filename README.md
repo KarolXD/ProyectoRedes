@@ -1,4 +1,4 @@
-# ProyectoRedes
+# Creación de un Servidor FTP
 
 
 El Readme de este repositorio tendrá una descripción del software que se debe instalar
@@ -10,6 +10,7 @@ Para empezar con la clonación del repositorio,
 Usando el IDE Netbeans version 8.0
 
 Paso #1 Abre Netbeans
+
 Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
 
 Paso #3 Se dirige a la siguiente ruta Git/Clone/
