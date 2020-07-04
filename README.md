@@ -87,12 +87,12 @@ En la parte superior derecha de la página, seleccione el idioma y la plataforma
 Haga clic en el botón Download (Descargar) de la opción de descarga que desee instalar.
 Guarde el archivo del instalador en el sistema.
 
-
 Java
 
-Ve a la pagina de Java
-Opcion descargar java
-DEscargar e instalar
+Ve a la pagina:
+https://www.oracle.com/technetwork/es/java/javase/downloads/index.html
+Para empezar a descargar el jdk que utiliza 
+Descargar e instalar
 
 MySql
 
