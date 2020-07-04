@@ -33,7 +33,7 @@ Lista clonación del repositorio
 
 
 
-#Restauración de la Base de datos
+# Restauración de la Base de datos
 
 #Paso #1
 Instalar gestor de base de datos Mysql
