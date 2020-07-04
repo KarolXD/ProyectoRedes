@@ -16,16 +16,31 @@ Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
 Paso #3 Se dirige a la siguiente ruta Git/Clone/
 
 Paso #4  En la pantalla "Clone Repo"
+
 1.1 Se le pedirá el link del repositorio
+
 1.2 Dirección o ruta donde se clonará  el repositorio.
 Ambos datos deben ser editables por el Usuario
 Cuando se llenen los datos, que dije anteriormente, se da click sobre el botón 'Next'
+
 Paso #5 Next
+
 Paso #6 Next
 
 
 
 Lista clonación del repositorio
+
+
+
+#Restauración de la Base de datos
+
+#Paso #1
+Instalar gestor de base de datos Mysql
+
+Paso #2 Configuración de Credenciales
+
+Paso #3 Importar el script
 
 
 
