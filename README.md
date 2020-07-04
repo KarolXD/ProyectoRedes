@@ -61,10 +61,15 @@ Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento 
 # Prerrequisitos
 Qué cosas necesita para instalar el software y cómo instalarlas
 
+
 Necesito:
+
 -Gestor de Base de datos
+
 -IDE de desarrollo
+
 -uso de conector de mysql 
+
 
 #Para este demo, se desarrolló en  el ID Netbeans version 8.0
 
@@ -100,6 +105,7 @@ En cualquier caso, tendremos que dirigirnos a la zona inferior de la nueva pági
  seleccionar la plataforma en la que deseamos instar MySQL. Por supuesto, será en Windows.
  Luego, tendremos que pulsar sobre la opción principal de “MySQL Installer for Windows”
 
+
 Conector mysql
 Se dirige a la página oficial de mysql, y pueda buscar en la sección de conectores, la versión que se adapte a sus necesidades, para este proyecto de utilizó la 5.1
 
@@ -112,32 +118,45 @@ podemos encontrar el conector que se utilizó para el presente proyecto.
 Se menciona cómo ejecutar las pruebas automatizadas para este sistema.
 
 Registrar Clientes
+
 Autenticación de Clientes
+
 Transferencia de archivos
+
 Conexión Cliente-Servidor
 
 # Desglosar en pruebas de extremo a extremo
 Se explica qué prueban estas pruebas y por qué.
 
 Prueban  que se pueda registrar "n" cliente para que puedan acceder a el servidor.
+
 Prueban que se pueda autenticar un cliente en el sistema y que no entren personas que no estén autenticadas
+
 Prueba que se  pueda transferir un archivo desde un lugar a otro
 
 # Construido con
-Java: Se utulizó como Lenguaje de Programación
-Mysql: Se utilizpo como Gestor de Base de datos
-Git: Se utulizó como controlador de versiones y tareas
+Java: Se utilizó como Lenguaje de Programación
+
+Mysql: Se utilizó como Gestor de Base de datos
+
+Git: Se utilizó como controlador de versiones y tareas
+
 IDE: Se usó como entorno de desarrollo
-conector mysq: Se utilizó para establecer la comunicación entre java y el gestor de la base de datos
+
+conector mysql: Se utilizó para establecer la comunicación entre java y el gestor de la base de datos
 
 # Versionado
 Version jdk:8
+
 Version Mysql: 8.0
+
 Version IDE: 8.2
+
 Version conectorMsql 5.1
 
 # Autores
 Jahanel Rivera Barboza
+
 Karolina Montenegro Guzmán
 
 # Licencia
