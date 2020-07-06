@@ -50,6 +50,9 @@ Paso #3.2 Seleccionar el back up, donde lo hayas guardado. Como podemos ver acon
 https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/dos.png
 
 
+
+Nota: Tanto el backup como el script de la base de datos, han sido subidos al repositorio:
+
 # Título del Proyecto
 Creacion de un servidor FTP para conexion de N Clientes para transferencia de archivos
 
