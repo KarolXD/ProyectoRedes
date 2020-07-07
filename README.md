@@ -141,14 +141,14 @@ Se dirige a la página oficial de mysql, y pueda buscar en la sección de conect
 
 ***Otra opción: En el presente proyecto, en la siguiente ruta \\ProyectoRedes\Server\dist\lib
 podemos encontrar el conector que se utilizó para el presente proyecto.  
-Para utilizarlo, darás click sobre el proyecto/ResolvProblems
+Para utilizarlo, darás click sobre el proyecto  /Resolve Project Problems
 
 A continuación podemos ver
 
 
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/rp.PNG)
 
-**Luego, darás click, sobre el botón 'Resolve' (imagen de la derecha) y buscas el conector(imagen derecha)
+**Luego, darás click, sobre el botón 'Resolve' (imagen de la derecha) y buscas el conector(imagen izquierda)
 Una vez que encuentres el conector, le darás click sobre el botón 'open'
 
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/conector.PNG)
