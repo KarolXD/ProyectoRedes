@@ -24,10 +24,10 @@ Ambos datos deben ser editables por el Usuario
 Cuando se llenen los datos, que dije anteriormente, se da click sobre el botón 'Next'
 
 Paso #5  Presionas sobre el botón Next
-![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/next1.png)
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/next1.PNG)
 
 Paso #6 Presionas sobre el botón Finish
-![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/finist.png)
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/finist.PNG)
 
 
 Lista clonación del repositorio
