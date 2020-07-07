@@ -141,7 +141,8 @@ A continuación podemos ver
 
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/rp.PNG)
 
-***Luego, darás click, sobre el botón 'Resolv' (imagen de la derecha) y buscas el conector
+**Luego, darás click, sobre el botón 'Resolve' (imagen de la derecha) y buscas el conector(imagen derecha)
+Una vez que encuentres el conector, le darás click sobre el botón 'open'
 
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/conector.PNG)
 
