@@ -11,7 +11,7 @@ Usando el IDE Netbeans version 8.0
 
 # Paso #1 Abre Netbeans
 
-Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
+# Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
 
 Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/team.PNG)
