@@ -141,7 +141,8 @@ Se dirige a la página oficial de mysql, y pueda buscar en la sección de conect
 
 ***Otra opción: En el presente proyecto, en la siguiente ruta \\ProyectoRedes\Server\dist\lib
 podemos encontrar el conector que se utilizó para el presente proyecto.  
-Para utilizarlo, darás click sobre el proyecto  /Resolve Project Problems
+
+Para el conector, se deberá importar de la siguiente forma: darás click sobre el proyecto/Resolve Project Problems
 
 A continuación podemos ver
 
