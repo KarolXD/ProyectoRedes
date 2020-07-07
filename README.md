@@ -9,21 +9,21 @@ para ejecutar el proyecto y los pasos detallados.
 Para empezar con la clonación del repositorio,
 Usando el IDE Netbeans version 8.0
 
-# Paso #1 Abre Netbeans
+***Paso #1 Abre Netbeans
 
-# Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
+***Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
 
 Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/team.PNG)
 
 
-# Paso #3 Se dirige a la siguiente ruta Git/Clone/
+***Paso #3 Se dirige a la siguiente ruta Git/Clone/
 
 Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/ruta.PNG)
 
 
-# Paso #4  En la pantalla "Clone Repo"
+***Paso #4  En la pantalla "Clone Repo"
 
 1.1 Se le pedirá el link del repositorio, así como las credenciales 
 
@@ -36,7 +36,7 @@ Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/cloneteRepo.PNG)
 
 
-# Paso #5  
+***Paso #5  
 Presionas sobre el botón Next
 Como podemos ver a continuación...
 
@@ -48,15 +48,15 @@ Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/finist.PNG)
 
 
-Lista clonación del repositorio
-
+--Lista clonación del repositorio
+Nota: El repositorio se clona con exito, sin embargo  se le mostrará algunas advetencias en el proyecto, esto es porque para este proyecto, se usa un conectar, para la comunicación del lenguaje con el gestor de base de datos, por tanto en el apartado ' Instalando' se detalla en qué ruta se encuentra el conector
 
 
 # Restauración de la Base de datos
 
 #Paso #1 Instalar gestor de base de datos Mysql
 
-Paso #2 Configuración de Credenciales
+Paso #2  Configuración de Credenciales
 
 Paso #3 Importar el script
 
@@ -132,9 +132,18 @@ En cualquier caso, tendremos que dirigirnos a la zona inferior de la nueva pági
 Conector mysql
 Se dirige a la página oficial de mysql, y pueda buscar en la sección de conectores, la versión que se adapte a sus necesidades, para este proyecto de utilizó la 5.1
 
-Otra opción: En el presente proyecto, en la siguiente ruta \\ProyectoRedes\Server\dist\lib
-podemos encontrar el conector que se utilizó para el presente proyecto.
+***Otra opción: En el presente proyecto, en la siguiente ruta \\ProyectoRedes\Server\dist\lib
+podemos encontrar el conector que se utilizó para el presente proyecto.  
+Para utilizarlo, darás click sobre el proyecto/ResolvProblems
 
+A continuación podemos ver
+
+
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/rp.PNG)
+
+***Luego, darás click, sobre el botón 'Resolv' (imagen de la derecha) y buscas el conector
+
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/conector.PNG)
 
 
 # Ejecutando las pruebas
