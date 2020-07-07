@@ -9,17 +9,24 @@ para ejecutar el proyecto y los pasos detallados.
 Para empezar con la clonación del repositorio,
 Usando el IDE Netbeans version 8.0
 
-***Paso #1 Abre Netbeans
+***Paso #1 
 
-***Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
+Abre Netbeans
+
+***Paso #2 
+
+Se dirige a la navegación #Team en ingles, en español #Equipo
 
 Como podemos ver a continuación...
+
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/team.PNG)
 
 
-***Paso #3 Se dirige a la siguiente ruta Git/Clone/
+***Paso #3 
 
+Se dirige a la siguiente ruta Git/Clone/
 Como podemos ver a continuación...
+
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/ruta.PNG)
 
 
