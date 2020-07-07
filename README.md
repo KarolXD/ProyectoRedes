@@ -23,10 +23,11 @@ Paso #4  En la pantalla "Clone Repo"
 Ambos datos deben ser editables por el Usuario
 Cuando se llenen los datos, que dije anteriormente, se da click sobre el botón 'Next'
 
-Paso #5 Next
+Paso #5  Presionas sobre el botón Next
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/next1.png)
 
-Paso #6 Next
-
+Paso #6 Presionas sobre el botón Finish
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/finist.png)
 
 
 Lista clonación del repositorio
