@@ -13,7 +13,15 @@ Paso #1 Abre Netbeans
 
 Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
 
+Como podemos ver a continuación...
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/team.PNG)
+
+
 Paso #3 Se dirige a la siguiente ruta Git/Clone/
+
+Como podemos ver a continuación...
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/ruta.PNG)
+
 
 Paso #4  En la pantalla "Clone Repo"
 
@@ -23,7 +31,15 @@ Paso #4  En la pantalla "Clone Repo"
 Ambos datos deben ser editables por el Usuario
 Cuando se llenen los datos, que dije anteriormente, se da click sobre el botón 'Next'
 
-Paso #5  Presionas sobre el botón Next
+
+Como podemos ver a continuación...
+
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/cloneteRepo.PNG)
+
+
+Paso #5  
+Presionas sobre el botón Next
+
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/next1.PNG)
 
 Paso #6 Presionas sobre el botón Finish
