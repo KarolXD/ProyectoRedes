@@ -1,0 +1,11 @@
+Arquitectura de dominio
+
+aplicacion
+presentacion
+domino
+las interfaces o contratos de como deen estar contruidos dichos repositorios si deben formar partde del domino
+contrato: que debe ofrecer cada repositorio para que funcione y
+infraestructura
+repositorios son parte de la infraestructura
+
+servicios
