@@ -62,7 +62,7 @@ Paso #3 Importar el script
 
 Paso #3.1 Dirigirse a el apartado Data Import Como podemos ver acontinuación
 
-https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/uno.png
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/uno.png)
 
 Paso #3.2 Seleccionar el back up, donde lo hayas guardado. Como podemos ver acontinuación
 
