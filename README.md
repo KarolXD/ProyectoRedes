@@ -1,8 +1,58 @@
-# ProyectoRedes
-Proyecto Redes BY Antonio
+# Creación de un Servidor FTP
+
 
 El Readme de este repositorio tendrá una descripción del software que se debe instalar
 para ejecutar el proyecto y los pasos detallados. 
+
+
+# Clonando el repositorio
+Para empezar con la clonación del repositorio,
+Usando el IDE Netbeans version 8.0
+
+Paso #1 Abre Netbeans
+
+Paso #2 Se dirige a la navegación #Team en ingles, en español #Equipo
+
+Paso #3 Se dirige a la siguiente ruta Git/Clone/
+
+Paso #4  En la pantalla "Clone Repo"
+
+1.1 Se le pedirá el link del repositorio
+
+1.2 Dirección o ruta donde se clonará  el repositorio.
+Ambos datos deben ser editables por el Usuario
+Cuando se llenen los datos, que dije anteriormente, se da click sobre el botón 'Next'
+
+Paso #5 Next
+
+Paso #6 Next
+
+
+
+Lista clonación del repositorio
+
+
+
+# Restauración de la Base de datos
+
+#Paso #1 Instalar gestor de base de datos Mysql
+
+Paso #2 Configuración de Credenciales
+
+Paso #3 Importar el script
+
+Paso #3.1 Dirigirse a el apartado Data Import Como podemos ver acontinuación
+
+https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/uno.png
+
+Paso #3.2 Seleccionar el back up, donde lo hayas guardado. Como podemos ver acontinuación
+
+
+
+![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/dos.png)
+
+
+Nota: Tanto el backup como el script de la base de datos, han sido subidos al repositorio:
 
 # Título del Proyecto
 Creacion de un servidor FTP para conexion de N Clientes para transferencia de archivos
@@ -15,10 +65,17 @@ Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento 
 # Prerrequisitos
 Qué cosas necesita para instalar el software y cómo instalarlas
 
+
 Necesito:
+
 -Gestor de Base de datos
+
 -IDE de desarrollo
+
 -uso de conector de mysql 
+
+
+#Para este demo, se desarrolló en  el ID Netbeans version 8.0
 
 Como instalarlos?
 Tanto El ID como el gestor de bases de datos se descargan de la web solo es cuestion de instalar,
@@ -34,12 +91,12 @@ En la parte superior derecha de la página, seleccione el idioma y la plataforma
 Haga clic en el botón Download (Descargar) de la opción de descarga que desee instalar.
 Guarde el archivo del instalador en el sistema.
 
-
 Java
 
-Ve a la pagina de Java
-Opcion descargar java
-DEscargar e instalar
+Ve a la pagina:
+https://www.oracle.com/technetwork/es/java/javase/downloads/index.html
+Para empezar a descargar el jdk que utiliza 
+Descargar e instalar
 
 MySql
 
@@ -52,8 +109,12 @@ En cualquier caso, tendremos que dirigirnos a la zona inferior de la nueva pági
  seleccionar la plataforma en la que deseamos instar MySQL. Por supuesto, será en Windows.
  Luego, tendremos que pulsar sobre la opción principal de “MySQL Installer for Windows”
 
-Conecto mysql
+
+Conector mysql
 Se dirige a la página oficial de mysql, y pueda buscar en la sección de conectores, la versión que se adapte a sus necesidades, para este proyecto de utilizó la 5.1
+
+Otra opción: En el presente proyecto, en la siguiente ruta \\ProyectoRedes\Server\dist\lib
+podemos encontrar el conector que se utilizó para el presente proyecto.
 
 
 
@@ -61,32 +122,45 @@ Se dirige a la página oficial de mysql, y pueda buscar en la sección de conect
 Se menciona cómo ejecutar las pruebas automatizadas para este sistema.
 
 Registrar Clientes
+
 Autenticación de Clientes
+
 Transferencia de archivos
+
 Conexión Cliente-Servidor
 
 # Desglosar en pruebas de extremo a extremo
 Se explica qué prueban estas pruebas y por qué.
 
 Prueban  que se pueda registrar "n" cliente para que puedan acceder a el servidor.
+
 Prueban que se pueda autenticar un cliente en el sistema y que no entren personas que no estén autenticadas
+
 Prueba que se  pueda transferir un archivo desde un lugar a otro
 
 # Construido con
-Java: Se utulizó como Lenguaje de Programación
-Mysql: Se utilizpo como Gestor de Base de datos
-Git: Se utulizó como controlador de versiones y tareas
+Java: Se utilizó como Lenguaje de Programación
+
+Mysql: Se utilizó como Gestor de Base de datos
+
+Git: Se utilizó como controlador de versiones y tareas
+
 IDE: Se usó como entorno de desarrollo
-conector mysq: Se utilizó para establecer la comunicación entre java y el gestor de la base de datos
+
+conector mysql: Se utilizó para establecer la comunicación entre java y el gestor de la base de datos
 
 # Versionado
 Version jdk:8
+
 Version Mysql: 8.0
+
 Version IDE: 8.2
+
 Version conectorMsql 5.1
 
 # Autores
 Jahanel Rivera Barboza
+
 Karolina Montenegro Guzmán
 
 # Licencia
