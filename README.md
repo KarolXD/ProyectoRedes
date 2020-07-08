@@ -113,33 +113,30 @@ Necesito:
 
 
 # Instalando
-En este apartado se mencionan una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo
+En este apartado, se brindan una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo
 
-Vaya a la página de descargas de NetBeans IDE.
+
+* **IDE**
+
+Vaya a la página de descargas de NetBeans IDE. (https://netbeans.org/downloads/8.2/rc/)
 En la parte superior derecha de la página, seleccione el idioma y la plataforma en la lista desplegable. También puede optar por descargar y utilizar el archivo zip independiente de la plataforma.
 Haga clic en el botón Download (Descargar) de la opción de descarga que desee instalar.
 Guarde el archivo del instalador en el sistema.
 
-Java
+
+* **JDK**
 
 Ve a la pagina:
 https://www.oracle.com/technetwork/es/java/javase/downloads/index.html
 Para empezar a descargar el jdk que utiliza 
 Descargar e instalar
 
-MySql
+* **MySql**
 
-Lo primero que tendremos que hacer por supuesto, es instalar la herramienta principal,
- el motor de bases de datos y también vamos a provechar para instalar el cliente para la gestión 
-de las bases de datos. Para descargarlo tendremos que dirigirnos a su sitio web oficial,
- y en su página principal, pulsamos sobre “MySQL Comunnity Server”.
-
-En cualquier caso, tendremos que dirigirnos a la zona inferior de la nueva página y
- seleccionar la plataforma en la que deseamos instar MySQL. Por supuesto, será en Windows.
- Luego, tendremos que pulsar sobre la opción principal de “MySQL Installer for Windows”
+Lo primero que tendremos que hacer por supuesto, es descargar la herramienta en la página oficial (https://dev.mysql.com/downloads/workbench/)  y seguir los pasos para su instalación.
 
 
-Conector mysql
+* **Conector mysql**
 Se dirige a la página oficial de mysql, y pueda buscar en la sección de conectores, la versión que se adapte a sus necesidades, para este proyecto de utilizó la 5.1
 
 ***Otra opción: En el presente proyecto, en la siguiente ruta \\ProyectoRedes\Server\dist\lib
