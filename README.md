@@ -65,7 +65,7 @@ Nota: El repositorio se clona con exito, sin embargo  se le mostrará algunas ad
 
 # Restauración de la Base de datos
 
-* **Paso #1** Instalar gestor de base de datos Mysql
+* **Paso #1** Instalar gestor de base de datos Mysql, En el apartado **instalando** se detalla donde  el link de descarga 
 
 * **Paso #2**  Configuración de Credenciales
 
