@@ -1,4 +1,4 @@
-# Creación de un Servidor FTP
+  > # Creación de un Servidor FTP
 
 
 El Readme de este repositorio tendrá una descripción del software que se debe instalar
@@ -9,11 +9,11 @@ para ejecutar el proyecto y los pasos detallados.
 Para empezar con la clonación del repositorio,
 Usando el IDE Netbeans version 11.3
 
-***Paso #1 
+**Paso #1** 
 
 Abre Netbeans
 
-***Paso #2 
+**Paso #2** 
 
 Se dirige a la navegación #Team en ingles, en español #Equipo
 
@@ -22,7 +22,7 @@ Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/team.PNG)
 
 
-***Paso #3 
+**Paso #3** 
 
 Se dirige a la siguiente ruta Git/Clone/
 Como podemos ver a continuación...
@@ -30,7 +30,8 @@ Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/ruta.PNG)
 
 
-***Paso #4  En la pantalla "Clone Repo"
+**Paso #4** 
+En la pantalla "Clone Repo"
 
 1.1 Se le pedirá el link del repositorio, así como las credenciales 
 
@@ -43,13 +44,16 @@ Como podemos ver a continuación...
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/cloneteRepo.PNG)
 
 
-***Paso #5  
+**Paso #5**  
+
 Presionas sobre el botón Next
 Como podemos ver a continuación...
 
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/next1.PNG)
 
-Paso #6 Presionas sobre el botón Finish
+**Paso #6**
+
+Presionas sobre el botón Finish
 Como podemos ver a continuación...
 
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/finist.PNG)
@@ -61,17 +65,20 @@ Nota: El repositorio se clona con exito, sin embargo  se le mostrará algunas ad
 
 # Restauración de la Base de datos
 
-#Paso #1 Instalar gestor de base de datos Mysql
+* **Paso #1** Instalar gestor de base de datos Mysql
 
-Paso #2  Configuración de Credenciales
+* **Paso #2**  Configuración de Credenciales
 
-Paso #3 Importar el script
+* **Paso #3** Importar el script
 
-Paso #3.1 Dirigirse a el apartado Data Import Como podemos ver acontinuación
+* **Paso #3.1** Dirigirse a el apartado Data Import Como podemos ver acontinuación
+
 
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/uno.png)
 
-Paso #3.2 Seleccionar el back up, donde lo hayas guardado. Como podemos ver acontinuación
+* **Paso #3.2** 
+
+Seleccionar el back up, donde lo hayas guardado. Como podemos ver acontinuación
 
 
 
@@ -89,28 +96,24 @@ Creacion de un servidor FTP para conexion de N Clientes para transferencia de ar
 Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte la implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
 
 # Prerrequisitos
-Qué cosas necesita para instalar el software y cómo instalarlas
+En este apartado se mencionan las cosas que se necesitan para instalar el software y cómo instalarlas
 
 
 Necesito:
 
--Gestor de Base de datos
+* Gestor de Base de datos (Mysql)
 
--IDE de desarrollo
+* IDE de desarrollo
 
--uso de conector de mysql 
+* Conector de mysql
+
+* JDK
 
 
-#Para este demo, se desarrolló en  el ID Netbeans version 11.3
-
-Como instalarlos?
-Tanto El ID como el gestor de bases de datos se descargan de la web solo es cuestion de instalar,
-para poder gestionar el programa se tiene que descargar java el cual se usa para la creacion del programa,
-El conector mysql  se usa para la conexion a la BD, se descargan de la web y  los sockets  la cual nos permiten la transferencia de archivos
 
 
 # Instalando
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo
+En este apartado se mencionan una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo
 
 Vaya a la página de descargas de NetBeans IDE.
 En la parte superior derecha de la página, seleccione el idioma y la plataforma en la lista desplegable. También puede optar por descargar y utilizar el archivo zip independiente de la plataforma.
@@ -155,57 +158,41 @@ Una vez que encuentres el conector, le darás click sobre el botón 'open'
 ![](https://github.com/KarolXD/ProyectoRedes/blob/master/Imagenes%20de%20manual%20de%20usuario/conector.PNG)
 
 
-# Ejecutando las pruebas
-Se menciona cómo ejecutar las pruebas automatizadas para este sistema.
-
-Registrar Clientes
-
-Autenticación de Clientes
-
-Transferencia de archivos
-
-Conexión Cliente-Servidor
-
-# Desglosar en pruebas de extremo a extremo
-Se explica qué prueban estas pruebas y por qué.
-
-Prueban  que se pueda registrar "n" cliente para que puedan acceder a el servidor.
-
-Prueban que se pueda autenticar un cliente en el sistema y que no entren personas que no estén autenticadas
-
-Prueba que se  pueda transferir un archivo desde un lugar a otro
 
 # Construido con
-Java: Se utilizó como Lenguaje de Programación
+* Java: Se utilizó como Lenguaje de Programación
 
-Mysql: Se utilizó como Gestor de Base de datos
+* Mysql: Se utilizó como Gestor de Base de datos
 
-Git: Se utilizó como controlador de versiones y tareas
+* Git: Se utilizó como controlador de versiones y tareas
 
-IDE: Se usó como entorno de desarrollo
+* IDE: Se usó como entorno de desarrollo
 
-conector mysql: Se utilizó para establecer la comunicación entre java y el gestor de la base de datos
+* Conector mysql: Se utilizó para establecer la comunicación entre java y el gestor de la base de datos
 
 # Versionado
-Version jdk:8
 
-Version Mysql: 8.0
+* Version jdk:8.0
 
-Version IDE: 11.3
+* Version Mysql: 8.0
 
-Version conectorMsql 5.1
+* Version IDE: 11.3
+
+* Version conectorMsql 5.1
 
 # Autores
-Jahanel Rivera Barboza
 
-Karolina Montenegro Guzmán
+* Jahanel Rivera Barboza
+
+* Karolina Montenegro Guzmán
 
 # Licencia
-Este proyecto no está licenciado bajo alguna  Licencia
+Este proyecto no está licenciado bajo alguna licencia
 
 # Expresiones de gratitud
-A guide to java sockets cuyo código ha sido consulado: https://www.baeldung.com/a-guide-to-java-sockets
 
-Conectarse a un ftp con java cuyo código se ha consulado : http://lineadecodigo.com/java/conectarse-a-un-ftp-con-java/
+* A guide to java sockets cuyo código ha sido consulado: https://www.baeldung.com/a-guide-to-java-sockets
+
+* Conectarse a un ftp con java cuyo código se ha consulado : http://lineadecodigo.com/java/conectarse-a-un-ftp-con-java/
 
 etc.
